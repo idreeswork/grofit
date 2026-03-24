@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Access Your Bundle — @grofit</title>
+
+  <!-- Meta Pixel — REPLACE YOUR_PIXEL_ID -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
+
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body data-page="access">
+
+  <div class="access-page">
+    <div class="access-card">
+      <div class="access-logo">grofit</div>
+
+      <h1 class="access-title">Access Your Bundle</h1>
+      <p class="access-sub">
+        Enter the email address you used to purchase. We'll verify your access and take you straight to your templates.
+      </p>
+
+      <div id="access-error" class="access-error"></div>
+
+      <form id="access-form">
+        <div class="input-group">
+          <input
+            type="email"
+            id="access-email"
+            class="input-field"
+            placeholder="your@email.com"
+            required
+            autocomplete="email"
+          />
+        </div>
+
+        <button type="submit" id="access-submit" class="btn-primary" style="width:100%; justify-content:center;">
+          Access My Bundle →
+        </button>
+
+        <div id="access-loading" class="access-loading" style="display:none; text-align:center; padding:8px;">
+          Verifying access...
+        </div>
+      </form>
+
+      <p class="access-note">
+        Just purchased? Check your email for the PDF first — it has all your Canva links directly.<br /><br />
+        If you're having trouble, email <a href="mailto:hello@grofit.com" style="color:var(--yellow); text-decoration:none;">hello@grofit.com</a> and we'll get you sorted.
+      </p>
+    </div>
+  </div>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>
