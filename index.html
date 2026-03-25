@@ -3,978 +3,987 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="1,000+ proven Meta ad templates. Edit in Canva. Launch same day. No designer needed. Tested with millions in real ad spend across 15+ niches." />
-  <meta name="keywords" content="meta ad templates, canva ad templates, facebook ad templates, instagram ad templates, ecommerce ads, canva templates" />
-  <meta property="og:title" content="Stop Making Ads From Scratch — 1,000+ Proven Meta Ad Templates" />
-  <meta property="og:description" content="Pick a template. Edit in Canva. Launch today. 2,130+ marketing assets, one price, lifetime access." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://grofit.pages.dev" />
-  <!-- og:image: replace with /images/og-image.jpg (1200×630px) -->
-  <meta property="og:image" content="https://grofit.pages.dev/images/og-image.jpg" />
-  <title>1,000+ Winning Meta Ad Templates — Grofit</title>
 
-  <!-- Canonical -->
-  <link rel="canonical" href="https://grofit.pages.dev" />
+  <!-- SEO -->
+  <title>1,000+ Proven Meta Ad Templates — Grofit | Canva | 15+ Niches</title>
+  <meta name="description" content="Stop making ads from scratch. 1,000+ winning Meta ad templates for Canva. 15+ niches, 12 ad formats, tested with millions in real ad spend. One-time payment. Instant access." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://grofit.pages.dev/" />
+
+  <!-- OG / Social -->
+  <meta property="og:title" content="1,000+ Proven Meta Ad Templates — Grofit" />
+  <meta property="og:description" content="Stop designing from scratch. 2,130+ marketing assets. Edit in Canva. Launch same day." />
+  <meta property="og:url" content="https://grofit.pages.dev/" />
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:image" content="https://grofit.pages.dev/images/og-image.jpg" /> -->
+
+  <!-- Favicon — logo image or emoji fallback -->
+  <link rel="icon" type="image/png" href="/images/logo.png" />
 
   <!-- Meta Pixel — REPLACE YOUR_PIXEL_ID -->
   <script>
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
     n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-    document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init','YOUR_PIXEL_ID');fbq('track','PageView');
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+    (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','YOUR_PIXEL_ID');
+    fbq('track','PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
 
   <link rel="stylesheet" href="/assets/styles.css" />
-  <link rel="icon" href="/images/favicon.png" type="image/png" />
 </head>
-<body data-page="landing">
+<body>
 
-<!-- ── ANNOUNCEMENT BAR ───────────────────────────────────────── -->
+<!-- ── ANNOUNCEMENT BAR ──────────────────────────────────── -->
 <div class="ann-bar">
-  Launch price active — $47 today. Increases to $67 when this run ends. No fake timer, just fact.
+  Launch price active &mdash; Goes up soon. No fake countdown.
 </div>
 
-<!-- ── NAVIGATION ─────────────────────────────────────────────── -->
-<nav class="nav" aria-label="Main navigation">
+<!-- ── NAV ───────────────────────────────────────────────── -->
+<nav class="nav">
   <div class="nav-inner">
-    <a href="/" class="nav-logo" aria-label="Grofit home">
-      <!-- Replace src with your actual logo file -->
-      <img src="/images/logo.png" alt="Grofit" onerror="this.outerHTML='<span class=nav-logo-text>GRO<span>FIT</span></span>'" />
+    <a href="/" class="nav-logo">
+      <!-- REPLACE: add your logo PNG to /images/logo.png -->
+      <img src="/images/logo.png" alt="Grofit"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+      <span class="nav-logo-text" style="display:none;">GROFIT</span>
     </a>
-    <div class="nav-right">
-      <span class="nav-price">$47</span>
-      <a href="YOUR_CHECKOUT_LINK" class="btn btn-primary" onclick="track('InitiateCheckout')">
-        Get the Bundle
-      </a>
-    </div>
+    <a href="#pricing" class="btn btn-primary btn-md" onclick="trackEvent('InitiateCheckout')">
+      Get the Bundle
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
   </div>
 </nav>
 
-<!-- ── SECTION 01 — HERO (PROBLEM + SOLUTION HOOK) ───────────── -->
-<section class="hero" id="top">
-  <div class="container">
-    <div class="hero-top">
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- 01. PROBLEM SETUP + HERO                                -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section class="hero" data-hero>
+  <div class="hero-left">
+    <div class="hero-eyebrow">
+      <span class="hero-eyebrow-dot"></span>
+      Meta Ad Templates &middot; 15+ Niches &middot; Canva
+    </div>
 
-      <!-- Left copy -->
-      <div class="hero-copy">
-        <div class="hero-eyebrow">
-          <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor"><circle cx="4" cy="4" r="4"/></svg>
-          Meta Ad Templates · Canva · 15+ Niches
-        </div>
+    <h1 class="hero-title">
+      Stop making<br />
+      ads from<br />
+      <span class="line-accent">scratch.</span>
+    </h1>
 
-        <h1 class="hero-headline">
-          Stop making<br>ads from<br><span class="hl">scratch.</span>
-        </h1>
+    <p class="hero-sub">
+      You've spent money on ads that didn't convert. You've spent hours designing creatives that flopped. You don't need another tutorial — you need templates that already work.
+    </p>
 
-        <p class="hero-sub">
-          You've burned money on ads that didn't convert. Spent 3 hours designing one creative. Watched it flop. There's a faster way — 1,000+ proven templates, ready to edit, ready to launch.
-        </p>
+    <div class="hero-actions">
+      <a href="#pricing" class="btn btn-primary btn-xl" onclick="trackEvent('InitiateCheckout')">
+        Get Instant Access
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#templates" class="btn btn-outline btn-lg">
+        See what's inside
+      </a>
+    </div>
 
-        <div class="hero-cta-group">
-          <a href="YOUR_CHECKOUT_LINK" class="btn btn-primary xl" onclick="track('InitiateCheckout')">
-            Get Instant Access — $47
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-          <div class="hero-cta-note">
-            <span class="trust-pill">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              Instant delivery
-            </span>
-            <span class="trust-pill">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              Lifetime access
-            </span>
-            <span class="trust-pill">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              No subscription
-            </span>
-          </div>
-        </div>
+    <div class="hero-trust">
+      <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Instant delivery
       </div>
+      <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Lifetime access
+      </div>
+      <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        No subscription
+      </div>
+      <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Free Canva plan works
+      </div>
+    </div>
+  </div>
 
-      <!-- Right visual — replace /images/hero-mockup.jpg (800×840px) -->
-      <div class="hero-visual">
-        <div class="hero-image-slot">
-          <!--
-            IMAGE PLACEHOLDER
-            File: /images/hero-mockup.jpg
-            Size: 800×840px
-            Content: Product bundle mockup or template collage screenshot
-          -->
-          <img src="/images/hero-mockup.jpg" alt="Grofit Meta Ad Template bundle preview"
-            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
-          <div class="img-placeholder" style="display:none;">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-            <span>Replace with /images/hero-mockup.jpg<br>Recommended: 800×840px</span>
-          </div>
-        </div>
-
-        <!-- Floating stats — visible on desktop -->
-        <div class="hero-float hero-float-1">
-          <div class="float-label">Total Assets</div>
-          <div class="float-value">2,130+</div>
-        </div>
-        <div class="hero-float hero-float-2">
-          <div class="float-label">Faster than scratch</div>
-          <div class="float-value">20x</div>
-        </div>
+  <div class="hero-right">
+    <!-- IMAGE: Replace /images/hero-mockup.jpg (900×700px)
+         Best option: screenshot of your templates in Canva,
+         or a styled collage of your 9 best ad templates. -->
+    <div class="hero-img-slot img-slot">
+      <img src="/images/hero-mockup.jpg" alt="Grofit Meta Ad Templates in Canva"
+           onerror="this.parentElement.classList.add('no-img');" />
+      <div class="img-placeholder-label">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        <span>hero-mockup.jpg<br/>900 × 700px</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── SOCIAL PROOF STRIP (scrolling) ────────────────────────── -->
-<div class="proof-strip" aria-hidden="true">
-  <div class="proof-track">
-    <!-- First set -->
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      1,000+ Ad Templates
+<!-- ── MARQUEE STRIP ──────────────────────────────────────── -->
+<div class="marquee-section" aria-hidden="true">
+  <div class="marquee-track">
+    <!-- Repeated twice for seamless loop -->
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      1,000+ Static Ad Templates
     </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      20× Faster Than Scratch
+    </div>
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
       15+ Niches Covered
     </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      12 Ad Concept Types
-    </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      Tested with Millions in Ad Spend
-    </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
       100% Canva Editable
     </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      Tested in Real Ad Spend
+    </div>
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
       Lifetime Access
     </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      One-Time Payment
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      2,130+ Total Assets
     </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      No Design Skills Required
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+      12 Proven Ad Formats
     </div>
-    <!-- Duplicate for infinite scroll -->
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      1,000+ Ad Templates
+    <!-- Duplicate for seamless loop -->
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      1,000+ Static Ad Templates
     </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      20× Faster Than Scratch
+    </div>
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
       15+ Niches Covered
     </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      12 Ad Concept Types
-    </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      Tested with Millions in Ad Spend
-    </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
       100% Canva Editable
     </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      Tested in Real Ad Spend
+    </div>
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
       Lifetime Access
     </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      One-Time Payment
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      2,130+ Total Assets
     </div>
-    <div class="proof-item">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      No Design Skills Required
+    <div class="marquee-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+      12 Proven Ad Formats
     </div>
   </div>
 </div>
 
-<!-- ── STATS ──────────────────────────────────────────────────── -->
-<div class="stats-section">
-  <div class="stats-grid">
-    <div class="stat-block reveal">
-      <div class="stat-num" data-count="2130" data-suffix="+">2130+</div>
-      <div class="stat-lbl">Marketing Assets</div>
-    </div>
-    <div class="stat-block reveal d1">
-      <div class="stat-num" data-count="15" data-suffix="+">15+</div>
-      <div class="stat-lbl">Niches Covered</div>
-    </div>
-    <div class="stat-block reveal d2">
-      <div class="stat-num" data-count="12">12</div>
-      <div class="stat-lbl">Ad Concept Types</div>
-    </div>
-    <div class="stat-block reveal d3">
-      <div class="stat-num" data-count="20" data-suffix="x">20x</div>
-      <div class="stat-lbl">Faster Than Scratch</div>
-    </div>
-  </div>
-</div>
-
-<!-- ── SECTION 02 — PROBLEM ───────────────────────────────────── -->
-<section id="problem">
+<!-- ── STATS STRIP ────────────────────────────────────────── -->
+<div class="stats-section reveal">
   <div class="container">
-    <div class="problem-layout">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number" data-count="2130" data-suffix="+">2130+</div>
+        <div class="stat-label">Total Assets</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-count="15" data-suffix="+">15+</div>
+        <div class="stat-label">Niches Covered</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-count="12">12</div>
+        <div class="stat-label">Ad Concept Types</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-count="20" data-suffix="x">20x</div>
+        <div class="stat-label">Faster Than Scratch</div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- 01 cont. PROBLEM SECTION                               -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section>
+  <div class="container">
+    <div class="problem-grid">
       <div>
-        <div class="section-header reveal">
-          <div class="section-tag">The real problem</div>
-          <h2 class="section-title">You're not failing because of your product.</h2>
-          <p class="section-desc">It's the creative. And somewhere you already know that. Here's what every store owner in your position is dealing with right now:</p>
-        </div>
+        <div class="section-label reveal">The real problem</div>
+        <h2 class="display-lg reveal">You're not failing because of your product.</h2>
+        <p class="text-lg muted reveal" style="margin: 16px 0 32px; max-width: 460px;">Your ads look amateur. Your creatives take 3 hours each. Your budget burns while you're still designing. That's the actual problem.</p>
 
-        <div class="pain-item reveal d1">
-          <div class="pain-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-          </div>
-          <div class="pain-text">
-            <strong>3 hours. One ad. It flopped.</strong>
-            You started from scratch, spent your evening designing, uploaded it — and got nothing back. That time is gone.
-          </div>
-        </div>
-
-        <div class="pain-item reveal d2">
-          <div class="pain-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-          </div>
-          <div class="pain-text">
-            <strong>$400 spent. Barely anything back.</strong>
-            The targeting looked fine. The product is good. You still don't know if it was the creative or something else.
-          </div>
-        </div>
-
-        <div class="pain-item reveal d3">
-          <div class="pain-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-          </div>
-          <div class="pain-text">
-            <strong>Other brands look professional. Yours looks homemade.</strong>
-            You scroll your feed and see polished, scroll-stopping ads. Yours doesn't look like that. You don't know how they do it.
-          </div>
-        </div>
-
-        <div class="pain-item reveal d4">
-          <div class="pain-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-          </div>
-          <div class="pain-text">
-            <strong>Can't afford a designer. Can't keep doing it yourself.</strong>
-            $50–$150 per creative. You need 5–10 to test properly. That math doesn't work on your current budget.
-          </div>
-        </div>
+        <ul class="pain-list">
+          <li class="pain-item reveal reveal-d1">
+            <span class="pain-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </span>
+            "I've spent $400 on ads and got barely anything back"
+          </li>
+          <li class="pain-item reveal reveal-d2">
+            <span class="pain-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </span>
+            "I spent 3 hours making one ad and it flopped immediately"
+          </li>
+          <li class="pain-item reveal reveal-d3">
+            <span class="pain-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </span>
+            "Other brands look professional. Mine looks homemade."
+          </li>
+          <li class="pain-item reveal reveal-d4">
+            <span class="pain-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </span>
+            "I can't afford a designer for every creative I want to test"
+          </li>
+        </ul>
       </div>
 
-      <!-- Quote block -->
-      <div class="quote-block reveal d2">
-        <div class="quote-item">
-          <p class="quote-text">"I've spent $400 on ads and got barely anything back. I don't know if it's my targeting, my product, or my creative."</p>
-          <div class="quote-author">Shopify store owner — 4 months in</div>
+      <div class="quote-block reveal">
+        <div class="quote-block-title">What people running ads say right now</div>
+        <div class="quote-entry">
+          <p class="quote-text">"I've spent $400 on ads and got barely anything back. I don't know if it's my targeting, my product, or my creative. I'm just guessing."</p>
+          <div class="quote-attr">Shopify store owner &middot; 8 months in</div>
         </div>
-        <div class="quote-item">
-          <p class="quote-text">"I spent 3 hours making one ad and it flopped immediately. I can't keep doing this if every creative takes that long."</p>
-          <div class="quote-author">Side hustler running first campaigns</div>
+        <div class="quote-entry">
+          <p class="quote-text">"I need to test more creatives but I don't have time to make more ads. I just want something that already works."</p>
+          <div class="quote-attr">DTC founder &middot; fashion brand</div>
         </div>
-        <div class="quote-item">
-          <p class="quote-text">"Other brands on my feed look so professional — mine looks homemade. I don't know how they do it."</p>
-          <div class="quote-author">DTC founder — skincare brand</div>
-        </div>
-        <div class="quote-item">
-          <p class="quote-text">"I just want something that already works. I'm tired of guessing."</p>
-          <div class="quote-author">Freelance media buyer — agency</div>
+        <div class="quote-entry">
+          <p class="quote-text">"I've tried free templates but they all look the same. Generic. My customers can tell."</p>
+          <div class="quote-attr">Side hustler &middot; going full-time</div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- ── SECTION 03 — OUTCOME / BEFORE-AFTER ────────────────────── -->
-<section class="outcome-section" id="outcome">
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- 02. SHOW RESULTS — BEFORE / AFTER REVEAL               -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section class="ba-section" style="background: var(--bg-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
   <div class="container">
-    <div class="section-header center reveal">
-      <div class="section-tag">What changes</div>
-      <h2 class="section-title">Old way vs the right way.</h2>
-      <p class="section-desc">Same product. Same niche. Completely different outcome when your creative system is sorted.</p>
-    </div>
+    <div class="section-label reveal">The difference</div>
+    <h2 class="display-lg reveal">Old way vs the right way.</h2>
+    <p class="text-lg muted reveal" style="margin-top: 12px; max-width: 500px;">Drag to compare. This is the gap between what you're doing now and what you could be doing today.</p>
 
-    <div class="compare-grid">
-      <div class="compare-col old reveal d1">
-        <div class="compare-label">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-          Old Way
+    <!-- BEFORE / AFTER REVEAL SLIDER -->
+    <div class="ba-wrapper">
+
+      <!-- BEFORE layer (bottom) -->
+      <!-- IMAGE: Replace /images/ba-before.jpg (1000×600px) with a screenshot
+           of a generic/bad ad or your old Canva work -->
+      <div class="ba-layer ba-before">
+        <img src="/images/ba-before.jpg" alt="Before using Grofit templates"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <!-- CSS fallback (remove once you add ba-before.jpg) -->
+        <div class="ba-before-fallback">
+          <div style="font-family: var(--font-display); font-size: 22px; color: rgba(239,68,68,0.7); margin-bottom: 16px; letter-spacing: 0.04em;">WITHOUT TEMPLATES</div>
+          <div class="ba-item bad"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> 3+ hours per creative</div>
+          <div class="ba-item bad"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Start from scratch every time</div>
+          <div class="ba-item bad"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Creatives look amateur</div>
+          <div class="ba-item bad"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Can only test 1–2 variations</div>
+          <div class="ba-item bad"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Budget burning, no winners</div>
         </div>
-        <div class="compare-item"><span class="compare-dot"></span>Start from scratch on every single ad</div>
-        <div class="compare-item"><span class="compare-dot"></span>3+ hours per creative — if it even works</div>
-        <div class="compare-item"><span class="compare-dot"></span>Scroll for hours looking for inspiration</div>
-        <div class="compare-item"><span class="compare-dot"></span>Launch one ad, cross fingers, wait</div>
-        <div class="compare-item"><span class="compare-dot"></span>Hit or miss — no system, no consistency</div>
-        <div class="compare-item"><span class="compare-dot"></span>Formats already outdated by the time you launch</div>
-        <div class="compare-item"><span class="compare-dot"></span>Can't test 10 variations — too slow, too expensive</div>
       </div>
-      <div class="compare-col new reveal d2">
-        <div class="compare-label">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
-          With This Bundle
+
+      <!-- AFTER layer (top, clipped) -->
+      <!-- IMAGE: Replace /images/ba-after.jpg (1000×600px) with a clean
+           screenshot of a Grofit template in Canva -->
+      <div class="ba-layer ba-after">
+        <img src="/images/ba-after.jpg" alt="After using Grofit templates"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <!-- CSS fallback -->
+        <div class="ba-after-fallback">
+          <div style="font-family: var(--font-display); font-size: 22px; color: rgba(34,197,94,0.9); margin-bottom: 16px; letter-spacing: 0.04em;">WITH GROFIT</div>
+          <div class="ba-item good"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> 10 minutes per creative</div>
+          <div class="ba-item good"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> Pick a template, swap your product</div>
+          <div class="ba-item good"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> Looks like a real brand</div>
+          <div class="ba-item good"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> Test 10 variations same day</div>
+          <div class="ba-item good"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> Find winners, scale fast</div>
         </div>
-        <div class="compare-item"><span class="compare-dot"></span>1,000+ proven templates — pick one, go</div>
-        <div class="compare-item"><span class="compare-dot"></span>New ad ready in under 10 minutes in Canva</div>
-        <div class="compare-item"><span class="compare-dot"></span>12 battle-tested ad concept types to choose from</div>
-        <div class="compare-item"><span class="compare-dot"></span>Launch 5 variations by tonight — same day</div>
-        <div class="compare-item"><span class="compare-dot"></span>Formats tested with millions in real ad spend</div>
-        <div class="compare-item"><span class="compare-dot"></span>Trending formats: iOS Notes, AirDrop, Tweet style</div>
-        <div class="compare-item"><span class="compare-dot"></span>Find winners faster, scale what works, cut what doesn't</div>
       </div>
+
+      <!-- Divider line + handle -->
+      <div class="ba-divider-line"></div>
+      <div class="ba-handle">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/><polyline points="9 18 3 12 9 6"/><polyline points="21 6 15 12 21 18"/></svg>
+      </div>
+
+      <span class="ba-label ba-label-left">Before</span>
+      <span class="ba-label ba-label-right">With Grofit</span>
     </div>
   </div>
 </section>
 
-<!-- ── SECTION 04 — TEMPLATE PREVIEW ─────────────────────────── -->
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- 03. CREDENTIALS — TEMPLATE PREVIEW                     -->
+<!-- ─────────────────────────────────────────────────────── -->
 <section id="templates">
   <div class="container">
-    <div class="section-header reveal">
-      <div class="section-tag">Inside the bundle</div>
-      <h2 class="section-title">1,000+ templates.<br>Every format that converts.</h2>
-      <p class="section-desc">Not made-up designs. Actual proven formats used by brands you've seen in your feed — with millions in real ad spend behind them. Replace these images with your own template screenshots.</p>
-    </div>
+    <div class="section-label reveal">Inside the bundle</div>
+    <h2 class="display-lg reveal">1,000+ templates.<br />Every format that converts.</h2>
+    <p class="text-lg muted reveal" style="margin-top: 12px; max-width: 540px;">Not made-up designs. Actual formats used by brands you've seen in your feed — with millions in real ad spend behind them.</p>
 
-    <!--
-      TEMPLATE GRID — HOW TO ADD YOUR IMAGES:
-      1. Create folder: /images/templates/
-      2. Add 8 screenshots named: tpl-01.jpg to tpl-08.jpg
-      3. Recommended size: 800×800px (square, 1:1)
-      4. Update the alt text to describe each template type
-    -->
+    <!-- TEMPLATE IMAGE GRID
+         Replace each /images/t-*.jpg with your actual template screenshots.
+         Export from Canva at 800×800px minimum. See /images/README.md -->
     <div class="template-grid">
 
-      <div class="tpl-card reveal">
-        <img src="/images/templates/tpl-01.jpg" alt="iOS Notes style Meta ad template"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-        <div class="tpl-placeholder" style="display:none;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-          <span>/images/templates/tpl-01.jpg</span>
+      <!-- Card 1 — iOS Notes -->
+      <div class="template-card reveal reveal-d1">
+        <img class="tc-img" src="/images/t-ios-notes.jpg" alt="iOS Notes Style Ad Template"
+             onerror="this.parentElement.classList.add('tc-fallback'); this.style.display='none';" />
+        <!-- CSS fallback label (visible until real image added) -->
+        <div class="tc-label-badge">iOS Notes Style</div>
+        <div style="flex:1; display:flex; align-items:center; justify-content:center;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="tpl-overlay"><div class="tpl-label">iOS Notes Style</div></div>
+        <div class="tc-hover-overlay"><span class="tc-concept-name">iOS Notes Style</span></div>
       </div>
 
-      <div class="tpl-card reveal d1">
-        <img src="/images/templates/tpl-02.jpg" alt="Before and after Meta ad template"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-        <div class="tpl-placeholder" style="display:none;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-          <span>/images/templates/tpl-02.jpg</span>
+      <!-- Card 2 — Before & After -->
+      <div class="template-card reveal reveal-d2">
+        <img class="tc-img" src="/images/t-before-after.jpg" alt="Before and After Ad Template"
+             onerror="this.parentElement.classList.add('tc-fallback'); this.style.display='none';" />
+        <div class="tc-label-badge">Before &amp; After</div>
+        <div style="flex:1; display:flex; align-items:center; justify-content:center;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="tpl-overlay"><div class="tpl-label">Before &amp; After</div></div>
+        <div class="tc-hover-overlay"><span class="tc-concept-name">Before &amp; After</span></div>
       </div>
 
-      <div class="tpl-card reveal d2">
-        <img src="/images/templates/tpl-03.jpg" alt="Tweet style Meta ad template"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-        <div class="tpl-placeholder" style="display:none;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-          <span>/images/templates/tpl-03.jpg</span>
+      <!-- Card 3 — Tweet Style -->
+      <div class="template-card reveal reveal-d3">
+        <img class="tc-img" src="/images/t-tweet.jpg" alt="Tweet Style Ad Template"
+             onerror="this.parentElement.classList.add('tc-fallback'); this.style.display='none';" />
+        <div class="tc-label-badge">Tweet Style</div>
+        <div style="flex:1; display:flex; align-items:center; justify-content:center;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="tpl-overlay"><div class="tpl-label">Tweet Style</div></div>
+        <div class="tc-hover-overlay"><span class="tc-concept-name">Tweet Style</span></div>
       </div>
 
-      <div class="tpl-card reveal d3">
-        <img src="/images/templates/tpl-04.jpg" alt="Us vs Them comparison ad template"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-        <div class="tpl-placeholder" style="display:none;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-          <span>/images/templates/tpl-04.jpg</span>
+      <!-- Card 4 — Us vs Them -->
+      <div class="template-card reveal reveal-d4">
+        <img class="tc-img" src="/images/t-us-vs-them.jpg" alt="Us vs Them Ad Template"
+             onerror="this.parentElement.classList.add('tc-fallback'); this.style.display='none';" />
+        <div class="tc-label-badge">Us vs Them</div>
+        <div style="flex:1; display:flex; align-items:center; justify-content:center;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="tpl-overlay"><div class="tpl-label">Us vs Them</div></div>
+        <div class="tc-hover-overlay"><span class="tc-concept-name">Us vs Them</span></div>
       </div>
 
-      <div class="tpl-card reveal">
-        <img src="/images/templates/tpl-05.jpg" alt="AirDrop style ad template"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-        <div class="tpl-placeholder" style="display:none;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-          <span>/images/templates/tpl-05.jpg</span>
+      <!-- Card 5 — AirDrop -->
+      <div class="template-card reveal">
+        <img class="tc-img" src="/images/t-airdrop.jpg" alt="AirDrop Style Ad Template"
+             onerror="this.parentElement.classList.add('tc-fallback'); this.style.display='none';" />
+        <div class="tc-label-badge">AirDrop Style</div>
+        <div style="flex:1; display:flex; align-items:center; justify-content:center;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="tpl-overlay"><div class="tpl-label">AirDrop Format</div></div>
+        <div class="tc-hover-overlay"><span class="tc-concept-name">AirDrop Style</span></div>
       </div>
 
-      <div class="tpl-card reveal d1">
-        <img src="/images/templates/tpl-06.jpg" alt="Media mention style ad template"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-        <div class="tpl-placeholder" style="display:none;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-          <span>/images/templates/tpl-06.jpg</span>
+      <!-- Card 6 — Media Mention -->
+      <div class="template-card reveal reveal-d1">
+        <img class="tc-img" src="/images/t-media.jpg" alt="Media Mention Ad Template"
+             onerror="this.parentElement.classList.add('tc-fallback'); this.style.display='none';" />
+        <div class="tc-label-badge">Media / PR</div>
+        <div style="flex:1; display:flex; align-items:center; justify-content:center;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="tpl-overlay"><div class="tpl-label">Media / PR Mention</div></div>
+        <div class="tc-hover-overlay"><span class="tc-concept-name">Media / PR Mention</span></div>
       </div>
 
-      <div class="tpl-card reveal d2">
-        <img src="/images/templates/tpl-07.jpg" alt="Benefits callout ad template"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-        <div class="tpl-placeholder" style="display:none;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-          <span>/images/templates/tpl-07.jpg</span>
+      <!-- Card 7 — Benefits -->
+      <div class="template-card reveal reveal-d2">
+        <img class="tc-img" src="/images/t-benefits.jpg" alt="Benefits Callout Ad Template"
+             onerror="this.parentElement.classList.add('tc-fallback'); this.style.display='none';" />
+        <div class="tc-label-badge">Benefits Callout</div>
+        <div style="flex:1; display:flex; align-items:center; justify-content:center;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="tpl-overlay"><div class="tpl-label">Benefits Callout</div></div>
+        <div class="tc-hover-overlay"><span class="tc-concept-name">Benefits Callout</span></div>
       </div>
 
-      <div class="tpl-card reveal d3">
-        <img src="/images/templates/tpl-08.jpg" alt="Facebook comment style ad template"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-        <div class="tpl-placeholder" style="display:none;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-          <span>/images/templates/tpl-08.jpg</span>
+      <!-- Card 8 — Facebook Comment -->
+      <div class="template-card reveal reveal-d3">
+        <img class="tc-img" src="/images/t-fb-comment.jpg" alt="Facebook Comment Style Ad Template"
+             onerror="this.parentElement.classList.add('tc-fallback'); this.style.display='none';" />
+        <div class="tc-label-badge">Facebook Comment</div>
+        <div style="flex:1; display:flex; align-items:center; justify-content:center;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="tpl-overlay"><div class="tpl-label">FB Comment Style</div></div>
+        <div class="tc-hover-overlay"><span class="tc-concept-name">Facebook Comment</span></div>
       </div>
 
-    </div><!-- /template-grid -->
-
-    <!-- Ad concept tags -->
-    <div class="concept-row reveal">
-      <span class="concept-chip">Us vs Them</span>
-      <span class="concept-chip">Before &amp; After</span>
-      <span class="concept-chip">iOS Notes</span>
-      <span class="concept-chip">Tweet Style</span>
-      <span class="concept-chip">AirDrop Format</span>
-      <span class="concept-chip">Media / PR</span>
-      <span class="concept-chip">Review Screenshot</span>
-      <span class="concept-chip">Benefits Callout</span>
-      <span class="concept-chip">Facebook Chat</span>
-      <span class="concept-chip">Facebook Comment</span>
-      <span class="concept-chip">Google Search Style</span>
-      <span class="concept-chip">Announcements</span>
     </div>
 
-    <!-- Before / After Slider -->
-    <div style="margin-top: 64px;" class="reveal">
-      <div class="section-header center" style="margin-bottom:36px;">
-        <div class="section-tag">Drag to reveal</div>
-        <h3 class="section-title" style="font-size:clamp(28px,3.5vw,42px);">See the difference.</h3>
-        <p class="section-desc">Drag the slider to compare a beginner's scratch creative vs a template from this bundle.</p>
-      </div>
-
-      <div class="ba-wrapper" role="img" aria-label="Before and after ad creative comparison slider">
-        <!--
-          BEFORE IMAGE: /images/ba-before.jpg (800×800px)
-          Content: Generic/homemade-looking ad creative example
-        -->
-        <img class="ba-img before" src="/images/ba-before.jpg" alt="Before — homemade ad creative"
-          onerror="this.style.display='none'" />
-        <!--
-          AFTER IMAGE: /images/ba-after.jpg (800×800px)
-          Content: Professional template from the bundle
-        -->
-        <img class="ba-img after" src="/images/ba-after.jpg" alt="After — professional Grofit template"
-          onerror="this.style.display='none'" />
-        <div class="ba-handle"></div>
-        <span class="ba-label left">Before</span>
-        <span class="ba-label right">After</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ── SECTION 05 — SOCIAL PROOF ──────────────────────────────── -->
-<section class="testimonials-section" id="proof">
-  <div class="container">
-    <div class="section-header center reveal">
-      <div class="section-tag">People just like you</div>
-      <h2 class="section-title">Same situation.<br>Different outcome.</h2>
-      <p class="section-desc">Same budget. Same frustration. Same store. Here's what changed when they stopped designing from scratch.</p>
-    </div>
-
-    <div class="testi-grid">
-
-      <div class="testi-card reveal d1">
-        <div class="testi-stars">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-        </div>
-        <p class="testi-text">"I was spending 3–4 hours making one ad. Now I launch 5 variations in the same time. Found a winner in week two. ROAS went from 1.2x to 3.8x. The formats I couldn't find anywhere else are what moved the needle."</p>
-        <div class="testi-author">
-          <div class="testi-avatar">M</div>
-          <div>
-            <div class="testi-name">Marcus T.</div>
-            <div class="testi-role">Shopify store · Supplements niche</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card reveal d2">
-        <div class="testi-stars">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-        </div>
-        <p class="testi-text">"The tweet-style and iOS notes formats are the ones clients keep asking me to recreate. I'd never seen these in any template pack. Customizing per client takes me 8 minutes. Delivering faster, charging the same."</p>
-        <div class="testi-author">
-          <div class="testi-avatar">A</div>
-          <div>
-            <div class="testi-name">Aisha R.</div>
-            <div class="testi-role">Freelance media buyer · Agency owner</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card reveal d3">
-        <div class="testi-stars">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-        </div>
-        <p class="testi-text">"Bought it at 10pm, had 8 new ads ready by midnight. The CRO checklist caught 3 store problems I didn't know about. Both things paid for themselves in the first week. Worth way more than $47."</p>
-        <div class="testi-author">
-          <div class="testi-avatar">J</div>
-          <div>
-            <div class="testi-name">Jordan K.</div>
-            <div class="testi-role">DTC founder · Skincare</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card reveal">
-        <div class="testi-stars">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-        </div>
-        <p class="testi-text">"I wasted my first $600 on bad creatives designed from scratch. Found this, used the before/after templates, got my first profitable day in week one. Wish I'd started here."</p>
-        <div class="testi-author">
-          <div class="testi-avatar">D</div>
-          <div>
-            <div class="testi-name">Daniel W.</div>
-            <div class="testi-role">First-time advertiser · Fashion</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card reveal d1">
-        <div class="testi-stars">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-        </div>
-        <p class="testi-text">"Running ads for 6 clients. This pack saves me 20+ hours a week. The email templates are a bonus I use just as much as the ad templates — didn't expect that."</p>
-        <div class="testi-author">
-          <div class="testi-avatar">S</div>
-          <div>
-            <div class="testi-name">Sofia M.</div>
-            <div class="testi-role">Freelance buyer · 6 active clients</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card reveal d2">
-        <div class="testi-stars">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-        </div>
-        <p class="testi-text">"Zero Canva experience. The crash course got me editing my first template in 7 minutes. Launched the next day. That ad has been running profitably for 3 months."</p>
-        <div class="testi-author">
-          <div class="testi-avatar">L</div>
-          <div>
-            <div class="testi-name">Lena P.</div>
-            <div class="testi-role">Digital product seller · Courses</div>
-          </div>
-        </div>
-      </div>
-
+    <!-- Concept tag chips -->
+    <div class="concept-tags reveal">
+      <span class="concept-tag">Us vs Them</span>
+      <span class="concept-tag">Before &amp; After</span>
+      <span class="concept-tag">iOS Notes</span>
+      <span class="concept-tag">Tweet Style</span>
+      <span class="concept-tag">AirDrop Format</span>
+      <span class="concept-tag">Media Mention</span>
+      <span class="concept-tag">Review Screenshot</span>
+      <span class="concept-tag">Benefits Callout</span>
+      <span class="concept-tag">Facebook Chat</span>
+      <span class="concept-tag">Facebook Comment</span>
+      <span class="concept-tag">Google Search Style</span>
+      <span class="concept-tag">Announcements</span>
     </div>
   </div>
 </section>
 
-<!-- ── SECTION 06 — OFFER STACK ───────────────────────────────── -->
-<section id="offer">
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- 04. THE OFFER                                          -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section id="offer" style="background: var(--bg-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
   <div class="container">
-    <div class="section-header center reveal">
-      <div class="section-tag">Everything included</div>
-      <h2 class="section-title">One bundle.<br>An entire system.</h2>
-      <p class="section-desc">Most people buy 4 separate products to get what's in here. You're getting the ads, the email, the social content, the CRO fix, and the training — in one.</p>
-    </div>
+    <div class="section-label reveal">What you get</div>
+    <h2 class="display-lg reveal">One bundle.<br />An entire system.</h2>
+    <p class="text-lg muted reveal" style="margin-top: 12px; max-width: 500px; margin-bottom: 48px;">Most people buy 4 separate products to get this. You get everything in one payment.</p>
 
-    <!-- Core offer -->
-    <div class="offer-main reveal">
-      <div class="offer-badge">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-        Core Product
-      </div>
-      <div class="offer-title">1,000+ Winning Static Ad Templates</div>
-      <div class="offer-sub">7 Canva folders. 12 ad concepts. 15+ niches. Tested with millions in real ad spend by top brands. Exclusive designs — not sold by any other seller.</div>
+    <!-- Core -->
+    <div class="offer-core reveal">
+      <div class="offer-core-tag">Core Product</div>
+      <div class="offer-core-title">1,000+ Winning Static Ad Templates</div>
+      <div class="offer-core-sub">7 Canva folders. 12 ad concepts. 15+ niches. Tested with millions in real ad spend.</div>
       <div class="offer-features">
-        <div class="offer-feat">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
-          Canva Links 1–4: All major ad formats covering every concept type
+        <div class="offer-feature">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Canva Links 1–4: All major ad formats and concept types
         </div>
-        <div class="offer-feat">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
-          E-com Link 5: Dedicated ecommerce designs — Shopify, DTC, physical products
+        <div class="offer-feature">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+          E-Com Link 5: Ecommerce-specific, Shopify + DTC optimised
         </div>
-        <div class="offer-feat">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
-          BFCM Link: Black Friday / Cyber Monday campaign-ready seasonal formats
+        <div class="offer-feature">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+          BFCM folder: Black Friday &amp; Cyber Monday campaigns
         </div>
-        <div class="offer-feat">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
-          Digital Product Link: Courses, info products, coaching, downloads
+        <div class="offer-feature">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Digital product folder: Courses, info products, downloads
         </div>
-        <div class="offer-feat">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
-          Trending formats: iOS Notes, AirDrop, Tweet style — not found in other packs
+        <div class="offer-feature">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+          All 12 ad concept types including trending iOS Notes, AirDrop, Tweet formats
         </div>
-        <div class="offer-feat">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
-          Exclusive designs — not sold anywhere else
+        <div class="offer-feature">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Exclusive designs — not sold by any other seller
         </div>
       </div>
     </div>
 
     <!-- Bonuses -->
-    <div class="bonus-grid">
-
-      <div class="bonus-card reveal d1">
-        <div class="bonus-bg-num">01</div>
-        <div class="bonus-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
-        </div>
-        <div class="bonus-tag">Free Bonus #1</div>
+    <!-- 05. BONUSES + VALUE STACK -->
+    <div class="bonuses-grid">
+      <div class="bonus-card reveal reveal-d1">
+        <div class="bonus-num">01</div>
+        <div class="bonus-tag">Free Bonus</div>
         <div class="bonus-title">Ultimate Website CRO Checklist</div>
-        <div class="bonus-desc">The #1 reason ads fail isn't the creative — it's the landing page. This Google Sheets checklist audits every conversion problem on your store. Do this before you run a single ad.</div>
-        <div class="bonus-value">Fixes leaky funnels before you burn budget</div>
+        <div class="bonus-desc">Google Sheets audit. Fix every conversion problem on your store before you spend a single dollar on ads. Most people skip this — and their ads fail because of it.</div>
+        <span class="bonus-value">Fixes leaky funnels before budget burns</span>
       </div>
 
-      <div class="bonus-card reveal d2">
-        <div class="bonus-bg-num">02</div>
-        <div class="bonus-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        </div>
-        <div class="bonus-tag">Free Bonus #2</div>
+      <div class="bonus-card reveal reveal-d2">
+        <div class="bonus-num">02</div>
+        <div class="bonus-tag">Free Bonus</div>
         <div class="bonus-title">270+ Email Marketing Templates</div>
-        <div class="bonus-desc">10 Canva folders. Welcome sequences, promotional emails, abandoned cart flows — all designed, all editable. Full video tutorial included. Stop sending ugly emails.</div>
-        <div class="bonus-value">270+ templates across 10 folders</div>
+        <div class="bonus-desc">10 Canva folders. Welcome flows, promotional emails, abandoned cart sequences — all designed, video tutorial included. Stop sending ugly emails.</div>
+        <span class="bonus-value">270+ templates across 10 folders</span>
       </div>
 
-      <div class="bonus-card reveal d3">
-        <div class="bonus-bg-num">03</div>
-        <div class="bonus-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-        </div>
-        <div class="bonus-tag">Free Bonus #3</div>
-        <div class="bonus-title">860+ Organic Social Media Templates</div>
-        <div class="bonus-desc">3 Canva folders. Feed posts, stories, carousels. Works for Instagram, TikTok, Facebook — any platform. Run paid and organic together. Look like a brand with a real team behind it.</div>
-        <div class="bonus-value">860+ posts, stories &amp; carousels</div>
+      <div class="bonus-card reveal reveal-d3">
+        <div class="bonus-num">03</div>
+        <div class="bonus-tag">Free Bonus</div>
+        <div class="bonus-title">860+ Social Media Post Templates</div>
+        <div class="bonus-desc">3 Canva folders. Feed posts, stories, carousels for Instagram, TikTok, Facebook — any platform. Run paid and organic in parallel. Look like a real team.</div>
+        <span class="bonus-value">860+ posts, stories, and carousels</span>
       </div>
 
-      <div class="bonus-card reveal d4">
-        <div class="bonus-bg-num">04</div>
-        <div class="bonus-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
-        </div>
-        <div class="bonus-tag">Free Bonus #4</div>
+      <div class="bonus-card reveal reveal-d4">
+        <div class="bonus-num">04</div>
+        <div class="bonus-tag">Free Bonus</div>
         <div class="bonus-title">Canva Crash Course</div>
-        <div class="bonus-desc">Never used Canva? This video gets you editing your first template in under 10 minutes. Zero design skills required. If you can type and click, you're good. Start here if you're brand new.</div>
-        <div class="bonus-value">Zero skill required to start</div>
+        <div class="bonus-desc">Video walkthrough. Never used Canva? Editing your first template takes under 10 minutes. Zero design skill required — if you can type and click, you're ready.</div>
+        <span class="bonus-value">Zero skill needed to start</span>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- ── SECTION 07 — SCARCITY / URGENCY ───────────────────────── -->
-<section style="padding:64px 0;">
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- 03 + 02. SOCIAL PROOF                                  -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section>
   <div class="container">
-    <div class="scarcity-section reveal">
-      <div class="scarcity-label">Heads up</div>
-      <h3 class="scarcity-title">This price is not permanent.</h3>
-      <p class="scarcity-text">$47 is the launch price. It moves to $67 and then $97 as this run closes. No fake countdown. No artificial pressure. Just the fact that early buyers get the lowest price — and this window is closing. If you need it, now is the time.</p>
+    <div class="section-label reveal">People just like you</div>
+    <h2 class="display-lg reveal">Same situation.<br />Different results.</h2>
+
+    <div class="proof-grid">
+      <div class="proof-card reveal reveal-d1">
+        <div class="proof-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="proof-text">"Was spending 3–4 hours per creative. Now I launch 5 variations in the same time. Found a winner in week two. ROAS went from 1.2x to 3.8x."</p>
+        <div class="proof-author">
+          <div class="proof-avatar">M</div>
+          <div>
+            <div class="proof-name">Marcus T.</div>
+            <div class="proof-role">Shopify · Supplements</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="proof-card reveal reveal-d2">
+        <div class="proof-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="proof-text">"The iOS notes and tweet-style templates are formats I'd never seen in a pack before. Clients keep asking how I produce such polished ads this fast."</p>
+        <div class="proof-author">
+          <div class="proof-avatar">A</div>
+          <div>
+            <div class="proof-name">Aisha R.</div>
+            <div class="proof-role">Media buyer · Agency</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="proof-card reveal reveal-d3">
+        <div class="proof-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="proof-text">"Bought it at 10pm, had 8 new ads ready by midnight. CRO checklist alone caught 3 problems on my store I didn't know about. Worth 10x the price."</p>
+        <div class="proof-author">
+          <div class="proof-avatar">J</div>
+          <div>
+            <div class="proof-name">Jordan K.</div>
+            <div class="proof-role">DTC founder · Skincare</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="proof-card reveal">
+        <div class="proof-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="proof-text">"Wasted my first $600 on bad creatives. Found this pack, used the before/after templates. Got my first profitable day in week one. Should've started here."</p>
+        <div class="proof-author">
+          <div class="proof-avatar">D</div>
+          <div>
+            <div class="proof-name">Daniel W.</div>
+            <div class="proof-role">First-time advertiser · Fashion</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="proof-card reveal reveal-d1">
+        <div class="proof-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="proof-text">"Running ads for 6 clients. This saves me 20+ hours a week. The email templates are a bonus I use just as much as the ad templates. Honestly didn't expect that."</p>
+        <div class="proof-author">
+          <div class="proof-avatar">S</div>
+          <div>
+            <div class="proof-name">Sofia M.</div>
+            <div class="proof-role">Freelance buyer · 6 clients</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="proof-card reveal reveal-d2">
+        <div class="proof-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="proof-text">"Never used Canva properly. The crash course got me editing my first ad in 8 minutes. Launched the next day. That ad has been running for 3 months."</p>
+        <div class="proof-author">
+          <div class="proof-avatar">L</div>
+          <div>
+            <div class="proof-name">Lena P.</div>
+            <div class="proof-role">Digital product seller</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ── SECTION 08 — PRICE REVEAL ──────────────────────────────── -->
-<section id="pricing" style="background:var(--black-2); border-top:var(--border); border-bottom:var(--border); padding:96px 0;">
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- 06. PRICE REVEAL                                       -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section id="pricing" style="background: var(--bg-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
   <div class="container">
-    <div class="section-header center reveal">
-      <div class="section-tag">The math is obvious</div>
-      <h2 class="section-title">Do the math.</h2>
-      <p class="section-desc">A designer charges $50–$150 per creative. You need 5–10 to test a campaign. That's $250–$1,500 before you know what works. This is 2,130+ assets for one price. It pays for itself on the first ad.</p>
+    <div class="section-label reveal" style="justify-content: center;">Do the math</div>
+    <h2 class="display-lg reveal" style="text-align: center;">A designer charges<br /><span class="accent">$150 per creative.</span></h2>
+    <p class="text-lg muted reveal" style="text-align: center; margin: 16px auto 48px; max-width: 480px;">You need 5–10 to test a campaign. That's $750–$1,500 before you know what works. This is not complicated.</p>
+
+    <div class="pricing-wrap">
+      <div class="pricing-card reveal">
+        <div class="price-launch-tag">Launch Price</div>
+        <div class="price-was">Normally $97</div>
+        <div class="price-main"><sup>$</sup><!-- REPLACE: update price here -->47</div>
+        <div class="price-note">One-time payment &middot; Lifetime access &middot; Instant delivery</div>
+
+        <div class="price-breakdown">
+          <div class="price-row">
+            <span class="price-row-name">1,000+ Meta Ad Templates (7 folders)</span>
+            <span class="price-row-val">$197</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row-name">Website CRO Checklist</span>
+            <span class="price-row-val">$47</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row-name">270+ Email Templates</span>
+            <span class="price-row-val">$67</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row-name">860+ Social Media Templates</span>
+            <span class="price-row-val">$67</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row-name">Canva Crash Course</span>
+            <span class="price-row-val">$37</span>
+          </div>
+          <div class="price-total-row">
+            <span class="price-total-label">You pay today</span>
+            <span class="price-total-val">$415 → $47</span>
+          </div>
+        </div>
+
+        <!-- Primary CTA — REPLACE YOUR_CHECKOUT_LINK -->
+        <a href="YOUR_CHECKOUT_LINK" class="btn btn-primary btn-xl"
+           style="width: 100%; justify-content: center; font-size: 17px;"
+           onclick="trackEvent('InitiateCheckout', {value: 47, currency: 'USD'})">
+          Get Instant Access — $47
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <div class="price-guarantee-line">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Secure checkout &middot; Instant PDF delivery &middot; Share with team
+        </div>
+      </div>
     </div>
+  </div>
+</section>
 
-    <div class="pricing-card reveal">
-      <div class="price-tag">Launch Price — Limited Run</div>
-      <p class="price-was">Usually $97</p>
-      <div class="price-main"><sup>$</sup>47</div>
-      <p class="price-note">One-time payment. Lifetime access. Instant PDF delivery.</p>
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- PAYMENT OPTIONS (UPI / PayPal / Razorpay / Crypto)    -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section class="payment-section">
+  <div class="container">
+    <div class="payment-methods">
+      <h3 class="display-md reveal" style="margin-bottom: 8px;">Other payment options</h3>
+      <p class="text-md muted reveal" style="margin-bottom: 0;">Prefer to pay directly? Choose your method below.</p>
 
-      <div class="price-list">
-        <div class="price-list-title">Everything you're getting:</div>
-        <div class="price-row">
-          <span class="price-row-name">1,000+ Meta Ad Templates (7 Canva folders)</span>
-          <span class="price-row-val">$197</span>
-        </div>
-        <div class="price-row">
-          <span class="price-row-name">Ultimate Website CRO Checklist</span>
-          <span class="price-row-val">$47</span>
-        </div>
-        <div class="price-row">
-          <span class="price-row-name">270+ Email Marketing Templates</span>
-          <span class="price-row-val">$67</span>
-        </div>
-        <div class="price-row">
-          <span class="price-row-name">860+ Organic Social Media Templates</span>
-          <span class="price-row-val">$67</span>
-        </div>
-        <div class="price-row">
-          <span class="price-row-name">Canva Crash Course (video)</span>
-          <span class="price-row-val">$37</span>
-        </div>
-      </div>
-
-      <div class="price-total-row">
-        <span class="price-total-label">Total value</span>
-        <span class="price-total-val">$415 → $47</span>
-      </div>
-
-      <a href="YOUR_CHECKOUT_LINK" class="btn btn-primary xl" style="width:100%;" onclick="track('InitiateCheckout')">
-        Get Instant Access — $47
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </a>
-
-      <div class="guarantee-note">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        Instant PDF delivery · Lifetime Canva access · Share with team
-      </div>
-    </div>
-
-    <!-- PAYMENT METHODS -->
-    <div class="payment-section-inner reveal">
       <div class="payment-divider">or pay directly</div>
 
-      <div class="payment-grid">
+      <div class="payment-options-grid">
+        <!-- UPI / QR -->
+        <button class="payment-option-btn" data-panel="panel-upi" onclick="">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="3" height="3"/><rect x="18" y="18" width="3" height="3"/><rect x="14" y="18" width="3" height="1"/></svg>
+          UPI / QR Code
+        </button>
+
         <!-- PayPal -->
-        <a href="YOUR_PAYPAL_LINK" class="payment-method" target="_blank" rel="noopener">
-          <!--
-            IMAGE: /images/payments/paypal.svg
-            Download from: https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_74x46.jpg
-            Or use the text fallback below
-          -->
-          <img class="pm-logo" src="/images/payments/paypal.svg" alt="PayPal"
-            onerror="this.outerHTML='<svg width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1.5\'><rect x=\'2\' y=\'5\' width=\'20\' height=\'14\' rx=\'2\'/><line x1=\'2\' y1=\'10\' x2=\'22\' y2=\'10\'/></svg>'" />
-          <div class="pm-name">PayPal</div>
-          <div class="pm-note">Secure checkout</div>
-        </a>
+        <button class="payment-option-btn" data-panel="panel-paypal">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M7 11.5h3.5a3.5 3.5 0 0 0 0-7H5L3 17h3.5"/><path d="M10.5 11.5h3.5a3.5 3.5 0 0 0 0-7H10"/></svg>
+          PayPal
+        </button>
 
         <!-- Razorpay -->
-        <a href="YOUR_RAZORPAY_LINK" class="payment-method" target="_blank" rel="noopener">
-          <!--
-            IMAGE: /images/payments/razorpay.svg
-            Download from: https://razorpay.com/newsroom/brand-guidelines/
-          -->
-          <img class="pm-logo" src="/images/payments/razorpay.svg" alt="Razorpay"
-            onerror="this.outerHTML='<svg width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1.5\'><rect x=\'2\' y=\'5\' width=\'20\' height=\'14\' rx=\'2\'/><line x1=\'2\' y1=\'10\' x2=\'22\' y2=\'10\'/></svg>'" />
-          <div class="pm-name">Razorpay / UPI</div>
-          <div class="pm-note">Cards, UPI, NetBanking</div>
-        </a>
-
-        <!-- UPI QR — opens modal -->
-        <button class="payment-method upi-modal-trigger" id="open-upi" type="button">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="3" height="3"/><rect x="19" y="14" width="2" height="2"/><rect x="14" y="19" width="2" height="2"/><rect x="18" y="19" width="3" height="2"/></svg>
-          <div class="pm-name">UPI / GPay / PhonePe</div>
-          <div class="pm-note">Scan QR to pay</div>
+        <button class="payment-option-btn" data-panel="panel-razorpay">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+          Razorpay / Card
         </button>
+      </div>
 
-        <!-- Crypto -->
-        <a href="YOUR_CRYPTOMUS_LINK" class="payment-method" target="_blank" rel="noopener">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M9 9h4.5a2.5 2.5 0 010 5H9V9z"/><path d="M9 14h5a2.5 2.5 0 010 5H9v-5z"/><line x1="9" y1="9" x2="9" y2="19"/><line x1="12" y1="7" x2="12" y2="9"/><line x1="12" y1="19" x2="12" y2="21"/></svg>
-          <div class="pm-name">Crypto</div>
-          <div class="pm-note">BTC · ETH · USDT · more</div>
+      <!-- UPI Panel -->
+      <div class="payment-panel" id="panel-upi">
+        <h4>Pay via UPI</h4>
+        <p>Scan the QR code or copy the UPI ID below. After payment, email your transaction ID to <strong>contact.grofit@gmail.com</strong> and you'll receive access within a few hours.</p>
+        <!-- IMAGE: Replace /images/upi-qr.png with your UPI QR code (400×400px) -->
+        <div class="upi-qr-slot">
+          <img src="/images/upi-qr.png" alt="Grofit UPI QR Code"
+               onerror="this.parentElement.innerHTML='<div style=\'padding:20px;text-align:center;color:#888;font-size:12px;\'>Add your UPI QR to<br>/images/upi-qr.png</div>';" />
+        </div>
+        <!-- REPLACE: your UPI ID -->
+        <div class="upi-id">contact.grofit@upi</div>
+        <p style="margin-top:12px; font-size:12px; color: var(--text-3);">After payment send transaction screenshot to contact.grofit@gmail.com with subject: "Grofit Purchase"</p>
+      </div>
+
+      <!-- PayPal Panel -->
+      <div class="payment-panel" id="panel-paypal">
+        <h4>Pay via PayPal</h4>
+        <p>Click the button below to pay via PayPal. After payment, include your email in the payment note or email contact.grofit@gmail.com with your receipt.</p>
+        <!-- REPLACE YOUR_PAYPAL_LINK with your PayPal.me link -->
+        <a href="YOUR_PAYPAL_LINK" target="_blank" rel="noopener"
+           class="btn btn-outline btn-lg" style="width: 100%; justify-content: center; margin-top: 8px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Pay via PayPal.me
         </a>
       </div>
 
-      <!-- DM / Talk first option -->
-      <div class="dm-option">
-        <p>Want to ask something before buying? I respond to every email.</p>
-        <a href="mailto:contact.grofit@gmail.com">Email contact.grofit@gmail.com →</a>
+      <!-- Razorpay Panel -->
+      <div class="payment-panel" id="panel-razorpay">
+        <h4>Pay via Razorpay (Card / Net Banking / UPI)</h4>
+        <p>Use the Razorpay payment link below. Accepts cards, net banking, wallets, and UPI — all in one. Access is granted after manual verification.</p>
+        <!-- REPLACE YOUR_RAZORPAY_LINK with your Razorpay payment page link -->
+        <a href="YOUR_RAZORPAY_LINK" target="_blank" rel="noopener"
+           class="btn btn-outline btn-lg" style="width: 100%; justify-content: center; margin-top: 8px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Open Razorpay Payment Page
+        </a>
+      </div>
+
+      <!-- Talk first -->
+      <div class="talk-first reveal">
+        <div>
+          <p>
+            <strong>Want to talk before buying?</strong>
+            DM me on Instagram or send an email — I respond personally. High conversion, zero pressure.
+          </p>
+        </div>
+        <a href="mailto:contact.grofit@gmail.com" class="btn btn-ghost btn-md">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email Me
+        </a>
       </div>
     </div>
-
   </div>
 </section>
 
-<!-- ── SECTION 09 — GUARANTEE ─────────────────────────────────── -->
-<section style="padding:64px 0;">
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- 07. SCARCITY / URGENCY                                 -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section class="urgency-section">
   <div class="container">
-    <div class="guarantee-block reveal">
+    <div class="urgency-box reveal">
+      <div class="urgency-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+      </div>
+      <h3 class="display-md" style="margin-bottom: 12px;">Every day you wait is budget burned.</h3>
+      <p class="text-md muted" style="max-width: 480px; margin: 0 auto 24px;">Every week you spend designing from scratch is time you're not testing. Every bad creative that runs is money that doesn't come back. This fixes both. Right now. Today.</p>
+      <p class="text-sm" style="color: var(--text-3); margin-bottom: 28px;">Price goes up from $47 to $67 as volume grows. No countdown timer. Just the reality.</p>
+      <a href="YOUR_CHECKOUT_LINK" class="btn btn-primary btn-xl" onclick="trackEvent('InitiateCheckout')">
+        Get Instant Access — $47
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- 08. GUARANTEE                                          -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section class="guarantee-section">
+  <div class="container">
+    <div class="guarantee-inner">
       <div class="guarantee-icon">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
       </div>
       <div>
-        <div class="guarantee-title">Use it or don't. But you will.</div>
-        <p class="guarantee-text">If you buy this, open Canva, and still somehow can't find a single template worth using within 7 days — email me and I'll sort it. Simple. But here's the reality: if you put in 10 minutes, you'll have your first ad ready by tonight. The bundle works. The question is whether you'll use it.</p>
+        <div class="section-label" style="margin-bottom: 10px;">Risk reversal</div>
+        <h3 class="display-md" style="margin-bottom: 14px;">If it doesn't work, email me.</h3>
+        <p class="text-md muted">These templates are proven. But if you buy, open them, and genuinely feel you didn't get value — email <a href="mailto:contact.grofit@gmail.com" style="color: var(--text);">contact.grofit@gmail.com</a> within 7 days and I'll sort it out. Simple. No hoops.</p>
+        <p class="text-sm muted" style="margin-top: 12px;">This is a digital product. We can't control how it's used, but we stand behind it. If you use the templates properly and they don't help, that's a conversation worth having.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── FAQ ────────────────────────────────────────────────────── -->
-<section id="faq" style="background:var(--black-2); border-top:var(--border); border-bottom:var(--border); padding:96px 0;">
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- FAQ                                                    -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section>
   <div class="container">
-    <div class="section-header center reveal">
-      <div class="section-tag">Got questions</div>
-      <h2 class="section-title">Every objection<br>answered.</h2>
-    </div>
+    <div class="section-label reveal" style="justify-content: center;">Got questions</div>
+    <h2 class="display-lg reveal" style="text-align: center; margin-bottom: 48px;">Every answer<br />right here.</h2>
 
     <div class="faq-list">
-
       <div class="faq-item">
-        <button class="faq-q">
+        <div class="faq-q">
           How do I get the templates after buying?
-          <span class="faq-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          <span class="faq-toggle">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           </span>
-        </button>
-        <div class="faq-a">
-          <div class="faq-a-inner">You'll receive a PDF instantly with all 7 Canva template links and all 4 bonus links. Click any link, go to File → Make a Copy, and the templates are in your Canva account forever. Takes less than 2 minutes to get started.</div>
         </div>
+        <div class="faq-a"><div class="faq-a-inner">You receive a PDF instantly after purchase. It has all 7 Canva links + bonus links. Click any link, go to File → Make a Copy in Canva, and the templates are in your account forever. Takes less than 2 minutes to get started.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-q">
+        <div class="faq-q">
           Do I need Canva Pro?
-          <span class="faq-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          <span class="faq-toggle">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           </span>
-        </button>
-        <div class="faq-a">
-          <div class="faq-a-inner">No. Free Canva works for everything. Some advanced fonts may require Pro, but all templates work on the free plan out of the box. If you already have Pro — even better.</div>
         </div>
+        <div class="faq-a"><div class="faq-a-inner">No. Free Canva works. Every template in the bundle works on the free plan. Some advanced fonts or elements in Pro exist — but you'll have plenty without them.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-q">
+        <div class="faq-q">
           Will this work for my niche?
-          <span class="faq-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          <span class="faq-toggle">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           </span>
-        </button>
-        <div class="faq-a">
-          <div class="faq-a-inner">The templates cover 15+ niches: health, beauty, fitness, food, supplements, fashion, home goods, pets, tech, digital products, coaching, ecom general, BFCM seasonal, local business, and more. The ad concepts (before/after, reviews, benefits, tweet style) are universal — you just swap in your product and copy.</div>
         </div>
+        <div class="faq-a"><div class="faq-a-inner">15+ niches are covered: health, beauty, fitness, food, supplements, fashion, home, pets, tech, digital products, coaching, ecom general, BFCM seasonal, local business. All concepts (before/after, reviews, benefits) are universal — swap in your product and copy.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-q">
+        <div class="faq-q">
           I've never run ads before. Is this right for me?
-          <span class="faq-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          <span class="faq-toggle">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           </span>
-        </button>
-        <div class="faq-a">
-          <div class="faq-a-inner">Perfect time to start. Don't waste your first $500 figuring out creatives from scratch. Start with formats already proven to convert. Bonus #4 (Canva Crash Course) gets you set up from zero in under 10 minutes.</div>
         </div>
+        <div class="faq-a"><div class="faq-a-inner">Ideal timing. Don't waste your first $500 figuring out creatives from scratch — start with formats already proven to convert. The Canva Crash Course (Bonus #4) gets you fully set up in under 10 minutes, zero prior knowledge needed.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-q">
-          I already have templates. How is this different?
-          <span class="faq-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-          </span>
-        </button>
-        <div class="faq-a">
-          <div class="faq-a-inner">Do yours cover 15+ niches, 12 different ad concept types including trending iOS Notes, AirDrop, and tweet formats — plus email templates, social posts, and a CRO checklist? Most packs are one-dimensional. These are exclusive designs not sold anywhere else, tested with real brands at real ad spend scale.</div>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-q">
+        <div class="faq-q">
           Can I use these for client work?
-          <span class="faq-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          <span class="faq-toggle">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           </span>
-        </button>
-        <div class="faq-a">
-          <div class="faq-a-inner">Yes. Freelancers and agency owners use these for client campaigns all the time. One purchase, customize per client, export, and run. Share Canva access with your team too.</div>
         </div>
+        <div class="faq-a"><div class="faq-a-inner">Yes. Freelancers and agency owners use this for client campaigns. Customize per client, export, run. One purchase, unlimited client work. Many buyers save 20+ hours per week this way.</div></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-q">
+        <div class="faq-q">
           Is this a subscription?
-          <span class="faq-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          <span class="faq-toggle">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           </span>
-        </button>
-        <div class="faq-a">
-          <div class="faq-a-inner">No. One-time payment. Lifetime access. No recurring fees, no "monthly plan" surprise. Pay once, keep everything forever.</div>
         </div>
+        <div class="faq-a"><div class="faq-a-inner">No. One-time payment. Lifetime access. No recurring fees. No "monthly plan" surprise. Pay once, keep everything forever.</div></div>
       </div>
 
+      <div class="faq-item">
+        <div class="faq-q">
+          I already have templates. How is this different?
+          <span class="faq-toggle">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Do your current templates cover 15+ niches, 12 concept types including iOS Notes, AirDrop, tweet formats, plus email marketing, social media posts, AND a CRO checklist? Most packs are one-dimensional. These are exclusive designs not sold anywhere else — including trending formats most sellers don't even know about yet.</div></div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ── SECTION 10 — FINAL CTA (LAST PUSH) ────────────────────── -->
-<section class="final-section" id="buy">
-  <div class="container" style="text-align:center; padding:96px 0;">
-    <div class="section-tag reveal">Last chance to think about it</div>
-    <h2 class="section-title reveal">Every day you run<br>bad creatives, <span class="hl">you burn money.</span></h2>
-    <p class="section-desc reveal" style="margin:0 auto 40px; max-width:500px;">Stop designing from scratch. Stop guessing. Stop paying designers $150 per creative. Pick a template, edit in 10 minutes, launch today.</p>
+<!-- ─────────────────────────────────────────────────────── -->
+<!-- 09 + 10. FINAL CTA                                     -->
+<!-- ─────────────────────────────────────────────────────── -->
+<section class="final-cta" style="text-align: center;">
+  <div class="container">
+    <div class="section-label reveal" style="justify-content: center;">Last chance</div>
+    <h2 class="display-xl reveal" style="margin-bottom: 20px;">
+      Every day you run<br />bad creatives,<br />
+      <span class="accent">you burn money.</span>
+    </h2>
+    <p class="text-lg muted reveal" style="max-width: 480px; margin: 0 auto 40px;">
+      Stop designing from scratch. Stop guessing. Start with 1,000+ templates that already work. Launch today.
+    </p>
 
-    <a href="YOUR_CHECKOUT_LINK" class="btn btn-primary xl reveal" onclick="track('InitiateCheckout')">
+    <a href="YOUR_CHECKOUT_LINK" class="btn btn-primary reveal"
+       style="font-size: 18px; padding: 22px 48px;"
+       onclick="trackEvent('InitiateCheckout')">
       Get Instant Access — $47
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
 
-    <div style="display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;margin-top:24px;" class="reveal">
-      <span class="trust-pill">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-        Instant PDF delivery
-      </span>
-      <span class="trust-pill">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-        Lifetime Canva access
-      </span>
-      <span class="trust-pill">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <div class="hero-trust reveal" style="justify-content: center; margin-top: 24px;">
+      <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+        2,130+ assets
+      </div>
+      <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Instant delivery
+      </div>
+      <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Lifetime access
+      </div>
+      <div class="trust-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
         No subscription
-      </span>
-      <span class="trust-pill">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-        Share with team
-      </span>
+      </div>
+    </div>
+
+    <!-- 10. Repeat CTA -->
+    <div style="margin-top: 60px; padding-top: 48px; border-top: 1px solid var(--border);">
+      <p class="text-sm muted" style="margin-bottom: 16px;">Still here? This is your last nudge.</p>
+      <a href="YOUR_CHECKOUT_LINK" class="btn btn-outline btn-lg" onclick="trackEvent('InitiateCheckout')">
+        Get the bundle now
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
     </div>
   </div>
 </section>
 
-<!-- ── FOOTER ──────────────────────────────────────────────────── -->
+<!-- ── FOOTER ─────────────────────────────────────────────── -->
 <footer class="footer">
   <div class="container">
     <div class="footer-inner">
-      <a href="/" class="footer-logo" aria-label="Grofit home">
-        <img src="/images/logo.png" alt="Grofit" onerror="this.outerHTML='<span class=footer-logo-text>GROFIT</span>'" />
+      <a href="/" class="nav-logo">
+        <img src="/images/logo.png" alt="Grofit"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+        <span class="nav-logo-text" style="display:none;">GROFIT</span>
       </a>
       <div class="footer-links">
         <a href="/access.html">Access Bundle</a>
@@ -982,61 +991,29 @@
         <a href="#">Privacy</a>
         <a href="#">Terms</a>
       </div>
-      <span class="footer-copy">© 2025 Grofit. All rights reserved.</span>
+      <span class="footer-copy">&copy; 2025 Grofit. All rights reserved.</span>
     </div>
   </div>
 </footer>
 
-<!-- ── STICKY BAR ──────────────────────────────────────────────── -->
-<div class="sticky-bar" id="sticky-bar" role="complementary" aria-label="Buy now bar">
-  <div class="sticky-inner">
-    <div class="sticky-info">
-      Ultimate Meta Ads Bundle
-      <span>2,130+ templates · 15+ niches · Lifetime access</span>
+<!-- ── STICKY BOTTOM BAR ──────────────────────────────────── -->
+<div class="sticky-bar" id="sticky-bar">
+  <div class="sticky-bar-inner">
+    <div>
+      <div class="sticky-bar-text">
+        Ultimate Meta Ads Bundle
+        <span>2,130+ assets &middot; 15+ niches &middot; Lifetime access</span>
+      </div>
     </div>
-    <div class="sticky-price">$47</div>
-    <a href="YOUR_CHECKOUT_LINK" class="btn btn-primary" onclick="track('InitiateCheckout')">
+    <div class="sticky-bar-price">$47</div>
+    <a href="YOUR_CHECKOUT_LINK" class="btn btn-primary btn-md"
+       style="white-space: nowrap;"
+       onclick="trackEvent('InitiateCheckout')">
       Get Instant Access
     </a>
   </div>
 </div>
 
-<!-- ── UPI MODAL ───────────────────────────────────────────────── -->
-<div class="modal-overlay" id="upi-modal" role="dialog" aria-modal="true" aria-label="UPI Payment QR Code">
-  <div class="modal-box">
-    <button class="modal-close" id="close-upi" aria-label="Close modal">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-    </button>
-
-    <div class="modal-title">Pay via UPI</div>
-    <div class="modal-sub">Scan with any UPI app — GPay, PhonePe, Paytm, BHIM</div>
-
-    <div class="upi-qr-slot">
-      <!--
-        IMAGE: /images/payments/upi-qr.png
-        Generate your UPI QR at: https://upiqr.in or via your bank app
-        Size: 400×400px white background
-      -->
-      <img src="/images/payments/upi-qr.png" alt="UPI QR Code"
-        onerror="this.parentElement.innerHTML='<p style=\'color:#555;font-size:12px;padding:20px;text-align:center;\'>Add /images/payments/upi-qr.png</p>'" />
-    </div>
-
-    <div class="modal-id">
-      UPI ID: <span>YOUR_UPI_ID@bank</span>
-    </div>
-
-    <p class="modal-note">
-      After payment, email your transaction ID to <strong>contact.grofit@gmail.com</strong> — access will be granted within a few hours.
-    </p>
-  </div>
-</div>
-
-<script>
-  // Expose track() globally for onclick attributes
-  function track(event, params) {
-    if (typeof fbq !== 'undefined') fbq('track', event, params || {});
-  }
-</script>
 <script src="/assets/script.js"></script>
 </body>
 </html>
