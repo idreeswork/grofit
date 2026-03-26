@@ -1,4 +1,4 @@
-# Grofit — Setup Guide
+# Setup Guide
 ## Deploy in 15 minutes. No code needed after this.
 
 ---
@@ -6,7 +6,7 @@
 ## FILE STRUCTURE
 
 ```
-grofit/
+your-project/
 ├── index.html              ← Landing page
 ├── thank-you.html          ← Post-purchase confirmation + pixel
 ├── access.html             ← Email verification gate
@@ -37,7 +37,7 @@ Open each file and replace these strings:
 | `YOUR_PIXEL_ID` | Your Meta Pixel ID (from Meta Events Manager) |
 | `YOUR_PAYPAL_LINK` | Your PayPal.me link e.g. https://paypal.me/yourname |
 | `YOUR_RAZORPAY_LINK` | Your Razorpay payment page link |
-| `contact.grofit@upi` | Your actual UPI ID |
+| `contact.your-project@upi` | Your actual UPI ID |
 | `YOUR_CANVA_LINK_1` through `YOUR_CANVA_LINK_5` | Your Canva folder share links |
 | `YOUR_CANVA_BFCM_LINK` | Your BFCM Canva folder link |
 | `YOUR_CANVA_DIGITAL_LINK` | Your digital product Canva folder link |
@@ -59,12 +59,12 @@ Minimum to start: just add `logo.png`. Everything else shows a clean placeholder
 ## STEP 3 — Push to GitHub
 
 ```bash
-# In your grofit folder:
+# In your your-project folder:
 git init
 git add .
 git commit -m "Initial deploy"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/grofit.git
+git remote add origin https://github.com/YOUR_USERNAME/your-project.git
 git push -u origin main
 ```
 
@@ -76,13 +76,13 @@ Make the repo **Public** (required for Cloudflare Pages free tier).
 
 1. Go to **dash.cloudflare.com**
 2. **Workers & Pages** → **Create application** → **Pages** → **Connect to Git**
-3. Select your `grofit` repo
+3. Select your `your-project` repo
 4. Build settings:
    - Framework preset: **None**
    - Build command: *(leave blank)*
    - Build output directory: `/` (root)
 5. Click **Save and Deploy**
-6. Your site is live at `grofit.pages.dev`
+6. Your site is live at `your-project.pages.dev`
 
 ---
 
@@ -92,14 +92,14 @@ This stores your buyer emails securely. Takes 2 minutes.
 
 1. In Cloudflare dashboard → **Workers & Pages** → **KV**
 2. Click **Create namespace**
-3. Name it: `GROFIT_EMAILS`
+3. Name it: `your-project_EMAILS`
 4. Click **Create**
 
 Then bind it to your Pages project:
 1. Go to your Pages project → **Settings** → **Functions**
 2. Under **KV namespace bindings** → **Add binding**
 3. Variable name: `EMAILS_KV`
-4. KV namespace: select `GROFIT_EMAILS`
+4. KV namespace: select `your-project_EMAILS`
 5. Click **Save**
 
 ---
@@ -124,7 +124,7 @@ Redeploy: **Deployments** → click the latest → **Retry deployment**
 When a buyer pays, add their email in **30 seconds**:
 
 ### Option A — Cloudflare Dashboard (easiest)
-1. Go to **Workers & Pages** → **KV** → `GROFIT_EMAILS`
+1. Go to **Workers & Pages** → **KV** → `your-project_EMAILS`
 2. Click **Add entry**
 3. Key: `buyer@email.com` (lowercase)
 4. Value: `{"added":"2025-01-01"}`
@@ -134,7 +134,7 @@ Done. They can access immediately.
 
 ### Option B — API (fastest, one curl command)
 ```bash
-curl -X POST https://grofit.pages.dev/api/verify?action=add \
+curl -X POST https://your-project.pages.dev/api/verify?action=add \
   -H "Content-Type: application/json" \
   -d '{"email":"buyer@email.com","key":"YOUR_ADMIN_KEY"}'
 ```
@@ -147,7 +147,7 @@ Not recommended anymore — use KV dashboard instead.
 ## STEP 8 — Set checkout redirect
 
 In your payment platform (Beacons/Gumroad/Superprofile):
-- After successful payment, redirect to: `https://grofit.pages.dev/thank-you`
+- After successful payment, redirect to: `https://your-project.pages.dev/thank-you`
 
 This fires the Meta Purchase pixel and shows the buyer their next steps.
 
@@ -186,7 +186,7 @@ Auto-redeploys in ~60 seconds.
 → Make sure Canva folder is set to "Anyone with the link can view". Check share settings in Canva.
 
 **Support email wrong**
-→ Search for `contact.grofit@gmail.com` in all HTML files and replace if needed.
+→ Search for `contact.your-project@gmail.com` in all HTML files and replace if needed.
 
 ---
 
