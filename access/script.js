@@ -1,5 +1,5 @@
 /* ============================================
-   GROFIT — JAVASCRIPT
+   your-project — JAVASCRIPT
    Access Gate | FAQ | Scroll Animations | UX
    ============================================ */
 
@@ -152,9 +152,9 @@ async function initAccessGate() {
 
       if (allowed.includes(email)) {
         // Store access token in sessionStorage
-        const token = btoa(email + ':grofit-access-' + new Date().toDateString());
-        sessionStorage.setItem('grofit_access', token);
-        sessionStorage.setItem('grofit_email', email);
+        const token = btoa(email + ':your-project-access-' + new Date().toDateString());
+        sessionStorage.setItem('your-project_access', token);
+        sessionStorage.setItem('your-project_email', email);
         window.location.href = '/download.html';
       } else {
         errorEl.textContent = 'Email not found. Please use the email you purchased with. Contact support if you need help.';
@@ -178,7 +178,7 @@ function initDownloadGuard() {
   const isDownloadPage = document.body.classList.contains('page-download');
   if (!isDownloadPage) return;
 
-  const token = sessionStorage.getItem('grofit_access');
+  const token = sessionStorage.getItem('your-project_access');
   if (!token) {
     window.location.href = '/access.html';
     return;
@@ -187,7 +187,7 @@ function initDownloadGuard() {
   // Show email in welcome
   const emailDisplay = document.getElementById('user-email');
   if (emailDisplay) {
-    const email = sessionStorage.getItem('grofit_email') || '';
+    const email = sessionStorage.getItem('your-project_email') || '';
     emailDisplay.textContent = email;
   }
 }
