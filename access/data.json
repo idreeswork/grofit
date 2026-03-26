@@ -2,7 +2,6 @@
   "_comment": "HOW TO ADD BUYERS: Add their email (lowercase) to the 'emails' array below. Then re-deploy to Cloudflare Pages. Emails are case-insensitive — they are lowercased before checking.",
   "_instructions": "1. Buyer purchases → 2. Copy their email → 3. Add to array below → 4. git commit + push → 5. Cloudflare auto-redeploys in ~60 seconds",
   "emails": [
-    "demo@grofit.com",
     "test@example.com",
     "buyer@test.com"
   ]
