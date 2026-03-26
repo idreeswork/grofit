@@ -186,7 +186,7 @@ Auto-redeploys in ~60 seconds.
 → Make sure Canva folder is set to "Anyone with the link can view". Check share settings in Canva.
 
 **Support email wrong**
-→ Search for `contact.your-project@gmail.com` in all HTML files and replace if needed.
+→ Search for `contact@your-project.com` in all HTML files and replace if needed.
 
 ---
 
