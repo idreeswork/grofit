@@ -2,7 +2,7 @@
 
 | Filename | Size | What goes here |
 |---|---|---|
-| `logo.png` | Any (auto-scaled to 30px height) | Your Grofit logo. Transparent bg preferred. |
+| `logo.png` | Any (auto-scaled to 30px height) | Your your-project logo. Transparent bg preferred. |
 | `hero-mockup.jpg` | 900×700px | Canva open with your templates, or a collage of your 9 best ads |
 | `t-ios-notes.jpg` | 800×800px | iOS Notes style template screenshot from Canva |
 | `t-before-after.jpg` | 800×800px | Before & After template screenshot |
@@ -13,7 +13,7 @@
 | `t-benefits.jpg` | 800×800px | Benefits callout template screenshot |
 | `t-fb-comment.jpg` | 800×800px | Facebook comment style template screenshot |
 | `ba-before.jpg` | 1000×600px | A bad/generic ad (your old work or blurred competitor) |
-| `ba-after.jpg` | 1000×600px | A clean Grofit template in use |
+| `ba-after.jpg` | 1000×600px | A clean your-project template in use |
 | `upi-qr.png` | 400×400px | YOUR UPI QR CODE — generate from Google Pay / bank app |
 
 ## How to add images
